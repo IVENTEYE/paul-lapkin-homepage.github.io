@@ -1,0 +1,321 @@
+body{
+	font-family: 'Montserrat', sans-serf;
+	padding: 0;
+	margin: 0;
+	font-size: 16px;
+}
+
+i {
+font-family: fontawesome !important;
+}
+
+ul, li{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-weight: 900;
+}
+
+h1{
+	font-size: 65px;
+	letter-spacing: 0.23em;
+	border-top: 3px solid #98b4be;
+	border-bottom: 3px solid #98b4be;
+	width: 640px;
+	padding: 14px 0;
+	margin: 0 auto;
+	text-transform: uppercase;
+}
+
+h2{
+	font-size: 40px;
+	margin: 0;
+}
+
+h4{
+	text-transform: uppercase;
+	padding-top: 47px;
+	font-weight: lighter;
+
+}
+
+
+.header{
+	background: #31697d url('../img/bg.jpg') no-repeat center top / cover;
+	color: #fff;
+	padding-bottom: 426px;
+	padding-top: 91px;
+}
+
+.container{
+	width: 1170px;
+	margin: 0 auto;
+}
+
+.mail{
+	text-decoration: none;
+	color: #fff;
+}
+
+.nav{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	align-items: center; 
+}
+
+.offer{
+	margin-top: 293px;
+	text-align: center;
+	letter-spacing: 0.1em;
+}
+
+.offer p{
+	font-size: 25px;
+	font-weight: 'Regular';
+	color: #b0bec5;
+}
+
+.about{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	padding-top: 120px;
+}
+
+.float-right h3{
+	padding-top: 43px;
+	color: #737373;
+	font-size: 18px;
+	padding-left: 78px;
+	
+}
+
+.float-right p{
+	color: #737373;
+	padding-top: 40px;
+	padding-left: 78px;
+	line-height: 1.66em;
+}
+
+button{
+	margin-left: 78px;
+	margin-top: 66px;
+	width: 202px;
+	height: 46px;
+	color: #fff;
+	background: #ff2b4a;
+	border: none;
+	transition: all 0.5s ease-in-out;
+}
+button:hover{
+	cursor: pointer;
+	background: #6d3ed8;
+	transition: all 0.5s ease-in-out;
+}
+
+.heading{
+	padding-top: 122px;
+	text-align: center;
+}
+
+.heading p{
+	color: #7a7a7a;
+	margin-top: 25px;
+	padding-bottom: 60px;
+}
+
+.process{
+	background: #f6f6f6;
+
+}
+
+.cards{
+	display: flex;
+	justify-content: space-between;
+}
+
+.cards li{
+	width: 280px;
+	height: 280px;
+	color: #e8f8ff;
+	background: #10c6fc;
+}
+
+.cards li:nth-child(2){
+	background: #835aeb;
+}
+
+.cards li:nth-child(3){
+	background: #002453;
+}
+
+.cards li:nth-child(4){
+	background: #ff2b4a;
+}
+
+.cards li div{
+	text-align: center;
+	margin-top: 88px;
+}
+
+.portfolio{
+	text-align: center;
+	padding-bottom: 116px;
+}
+
+.portfolio h4{
+	font-family: 'Raleway', sans-serf;
+	font-size: 40px;
+	font-weight: bold;
+	text-transform: none;
+	margin: 0;
+	padding: 0;
+	padding-top: 235px;
+}
+
+.portfolio p{
+	font-family: 'Roboto';
+	color: #737373;
+	margin-top: 49px;
+}
+
+.line1 li{
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+	margin-top: 36px;
+	transition: all 0.2s ease-in-out;
+}
+
+.line2 li{
+	list-style: none;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 15px;
+	transition: all 0.2s ease-in-out;
+}
+
+.line2 li:nth-child(1){
+	width: 575px;
+	background: #835aeb;
+}
+
+.line2 li:nth-child(2){
+	background: #002453;
+}
+
+.line2 li:nth-child(3){
+	background: #ff2b4a;
+}
+
+.line1 li:hover{
+	opacity: 0.5;
+	cursor: pointer;
+	transition: all 0.2s ease-in-out;
+}
+
+.line2 li:hover{
+	opacity: 0.5;
+	cursor: pointer;
+	transition: all 0.2s ease-in-out;
+}
+
+.footer{
+	background: #222222;
+	color: #a7a7a7;
+	font-size: 12px;
+	text-align: center;
+	padding-bottom: 51px;
+}
+
+.socials{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	padding-top: 62px;
+	padding-bottom: 19px;
+}
+
+.socials a{
+	color: #a7a7a7;
+	font-size: 14px;
+	margin-right: 25px;
+	transition: all 0.2s ease-in-out;
+}
+
+.socials li:last-child a{
+	margin-right: 0;
+}
+
+.footer-text{
+	margin: 0;
+}
+
+.socials a:hover{
+	cursor: pointer;
+	color: #ff2b4a;
+	transition: all 0.2s ease-in-out;
+}
+
+@media screen and (max-width: 1200px){
+	.container{
+		width: 768px;
+	}
+	.about{
+		padding-bottom: 50px;
+	}
+}
+
+@media screen and (max-width: 800px){
+	.container{
+		width: auto;
+		padding: 10px;
+		min-width: 290px;
+	}
+	h1{
+		width: auto;
+	}
+	.float-left{
+		display: none;
+	}
+	.float-right{
+		width: auto;
+	}
+}
+
+@media screen and (max-width: 510px){
+	.cards{
+		flex-direction: column;
+	}
+	.cards li{
+		margin: 0 auto 30px;
+	}
+
+	.line2 li:nth-child(1){
+	width: 280px;
+	background: #835aeb;
+}
+}
+
+@media screen and (max-width: 400px){
+	h1{
+		font-size: 45px;
+	}
+}
